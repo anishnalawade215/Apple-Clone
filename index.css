@@ -1,0 +1,477 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    height: 44px;
+    max-height: 44px;
+    list-style: none;
+    display: flex;
+    background: #f2f2f2;
+    color: #303030;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-size: 15px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #fbfbfd;
+    color: #1d1d1f;
+    background-position: 0% 0%;  
+}
+
+p{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background: black;
+}
+
+.fifpro{
+    background: black;
+    margin-top: -120px;
+}
+
+/* start of the blank container */
+.blank{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 100%;
+    background: black; 
+}
+
+#new{
+    color: #F56300;
+    background-color: black;
+    margin: 8px;
+    font-size: 12px;
+}
+
+#iphone{
+    color: #B9B4AF;
+    background: black;
+    font-size: 24px;
+}
+
+#tit{
+    color: #6F6B5F;
+    background: black;
+    margin: 15px;
+    font-size: 48px;
+}
+
+#from{
+    color: #E9E9EB;
+    background: black;
+    margin: 10px;
+    font-size: 21px;
+}
+
+button, .buy{
+    background: #0071E3;
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 17px;
+}
+
+#Learn{
+    background: black;
+    color: #175590;
+    font-size: 21px;
+}
+
+/* End of the blank container 15pro black*/
+
+/* white blank container 15  */
+
+.wblk{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 100%;
+    background: #f7f7f9; 
+}
+
+#nw{
+    color: #F56300;
+    background-color: #f7f7f9;
+    margin: 8px;
+    font-size: 12px;
+}
+
+#iph{
+    color: black;
+    background: #f7f7f9;
+    font-size: 24px;
+}
+
+#nph{
+    color: black;
+    background: #f7f7f9;
+    margin: 15px;
+    font-size: 48px;
+}
+
+#frm{
+    color: #2D2D2F;
+    background: #f7f7f9;
+    margin: 10px;
+    font-size: 21px;
+}
+
+button, .buy{
+    background: #0071E3;
+    height: 40px;
+    width: 80px;
+    color: #f7f7f9;
+    border-radius: 30px;
+    border: none;
+    margin: 10px;
+    font-size: 17px;
+}
+
+#Lrn{
+    background: #f7f7f9;
+    color: #175590;
+    font-size: 21px;
+}
+
+.fif{
+    width: 100%;
+}
+
+/* End of the blank white container 15 */
+
+/* i phone se start */
+.sec{
+    display: flex;
+    height: 830px;
+    width: 1519.2px;
+    margin-top: 10px;
+    background-color: #F6F5F8;
+}
+
+.left{
+    height: 830px;
+    width: 49%;
+    flex-direction: column;
+    background: #F6F5F8;
+}
+
+.see{
+    height: 830px;
+    width: 494px;
+}
+
+.se{
+    height: 22px;
+    width: 96px;
+    margin: 0 0 0 -48px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.072px;
+    line-height: 28px;
+    text-align: center;
+    word-spacing: 0;
+
+}
+
+.love{
+    height: 104px;
+    width: 633px;
+    margin: 16px 0 0 0;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.144px;
+    line-height: 52.0077px;
+    text-align: center;
+    word-spacing: 0;
+    color: #3052C5;
+}
+
+.price{
+    height: auto;
+    width: auto;
+    font-size: 21px;
+    letter-spacing: 0.231px;
+    line-height: 29.001px;
+    text-align: center;
+    word-spacing: 0;
+    background: #F6F5F8;
+    color: #1d1d1f;
+}
+
+#Lrn{
+    background-color: #F6F5F8
+    ;
+}
+
+/* i phone se end */
+
+.big-container{
+    margin: 10px;
+    width: 100%;
+}
+
+#big{
+    border-radius: 50px;
+}
+
+.snippets{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 150px;
+    background: white;
+}
+
+.comp{
+    display: flex;
+    height: 20vh;
+    background: white;
+    color: #0066cc;
+    font-size: 21px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30%;
+    padding-bottom: 10%;
+
+}
+
+span{
+    padding-left: 40px;
+}
+
+     .ways{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    font-size: 56px;
+    justify-content: center;
+    align-items: center;
+    background: #F2F2F2;
+    padding-top: 8%;
+    padding-bottom: 7%;
+}
+
+.both{
+    background: #F2F2F2;
+}
+
+#nd{
+    margin-left: 20px;
+}
+
+#btm{
+    background: #F2F2F2;
+    padding-top: 15px;
+}
+
+#featured{
+    width: 100%;
+    height: 30vh;
+    background: #f2f2f2;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.three-containers{
+    display: block;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding-left: 8%;
+}
+
+.one, .two, .three{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.again-three-big{
+    background-color: #f2f2f2;
+}
+
+.again-three-big-l-r{
+    background: #f2f2f2;
+    padding-top: 20px;
+}
+
+#lll{
+    flex-direction: column;
+}
+#rrr{
+    padding-left: 10px;
+}
+
+.get-out{
+
+    height: 30vh;
+    width: 100%;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    padding-top: 50px;
+}
+
+.get-out-one{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8%;
+    background: #f2f2f2;
+}
+
+#onee,#twoo{
+   display: flex; 
+   justify-content: center;
+    align-items: center;
+}
+
+#twoo{
+    padding-top: 20px;
+}
+
+.get-out-one-l{
+    padding-top: 20px;
+    padding-left: 70px;
+    background: #f2f2f2;
+}
+
+#twooo{
+    padding-left: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: white;
+    margin-left: 15%;
+    padding-top: 30px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 0;
+    border-bottom: 1px solid grey;
+}
+
+#uno,#dos,#tres,#cuatro,#cinco,#seis,#siete,#ocho,#nueve,#diez,#once,#dose,#tres,#catorce,#quince{
+    background: white;
+}
+
+#uno, #seis, #nueve, #catorce{
+    justify-content: left;
+}
+
+.footer-logo{
+    display: flex;
+    width: 70%;
+    height: 10vh;
+    justify-content: left;
+    align-items: center;
+    margin-left: 15%;
+    background: white;
+    list-style: none;
+    padding-left: 0%;
+}
+
+#footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 15px;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.define-one{
+    width: 14%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding-top: 0px;
+    text-align: left;
+    justify-content: center ;
+}
+
+.define-one h5,h6{
+    text-align: left;
+}
+
+.define-two{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.define-three{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 90px;
+}
+
+.define-four{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 15px;
+}
+
+.define-five{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 15px;
+}
+h6{
+    display: flex;
+    padding-top: 10px;
+    
+}
